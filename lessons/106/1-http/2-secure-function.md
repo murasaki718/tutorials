@@ -55,13 +55,8 @@ To configure the receiving function to accept requests from a specific calling f
 
 - Create `function-a` and attach `function-a` service account
 - Update `Hello World!` -> `Hello from Function A!`
-
-
 - Create `function-b` with `function-b` service account
-
 
 ```
 exports.helloWorld -> exports.invokeFuncA
 ```
-
-delete both functions

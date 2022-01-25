@@ -8,7 +8,7 @@ Intro:
 - Mention that some functions will be created from the console and some using cli tool as well as deployed directlly from the git code (GitHub)
 
 1. HTTPS API
-   - add authenticate (bearer token + JWT + other functions) (https://cloud.google.com/functions/docs/securing/authenticating)
+   - add authenticate (bearer token + other functions) (https://cloud.google.com/functions/docs/securing/authenticating)
    - Secret access (add access to something) - https://cloud.google.com/functions/docs/configuring/secrets
      - create service account (roles/secretmanager.secretAccessor) (Secret Manager Secret Accessor)
      - gcloud secrets versions access latest --secret=test --project=devops-339301

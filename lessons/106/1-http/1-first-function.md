@@ -23,4 +23,3 @@ curl https://us-central1-devopsbyexample-v1.cloudfunctions.net/function-1 \
     -H 'Content-Type: application/json' \
     -d '{"message":"Hi!!"}'
 ```
-- Delete function
