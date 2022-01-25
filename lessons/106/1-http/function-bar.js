@@ -3,7 +3,6 @@ const { GoogleAuth } = require('google-auth-library');
 exports.invokeFuncA = async (req, res) => {
     const url = 'https://us-central1-devopsbyexample-v1.cloudfunctions.net/function-a';
     const targetAudience = url;
-
     const auth = new GoogleAuth();
 
     try {

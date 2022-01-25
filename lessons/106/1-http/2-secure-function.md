@@ -61,8 +61,7 @@ To configure the receiving function to accept requests from a specific calling f
 
 
 ```
-exports.helloWorld -> exports.invokeFoo
+exports.helloWorld -> exports.invokeFuncA
 ```
 
-const {URL} = require('url');
-targetAudience = new URL(url).origin;
+delete both functions
