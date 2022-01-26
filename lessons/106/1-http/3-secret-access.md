@@ -1,3 +1,21 @@
+## Secret Access
+
+- Create secret `api-key`, secret value: devops123
+- Create service account: secret-function (copy email)
+- Add this service account to the secret as principal with Secret Manager Secret Accessor role
+- Create `secret-function`, keep it `unauthenticated`, update service account and add secret reference (api path)
+
+
+
+
+
+
+
+
+
+
+
+
 ## Install gcloud
 
 Install `gcloud`, follow this [guide](https://cloud.google.com/sdk/docs/install#installation_instructions).

@@ -8,31 +8,33 @@ Intro:
 - Mention that some functions will be created from the console and some using cli tool as well as deployed directlly from the git code (GitHub)
 
 1. HTTPS API
-   - add authenticate (bearer token + other functions) (https://cloud.google.com/functions/docs/securing/authenticating)
-   - Secret access (add access to something) - https://cloud.google.com/functions/docs/configuring/secrets
-     - create service account (roles/secretmanager.secretAccessor) (Secret Manager Secret Accessor)
-     - gcloud secrets versions access latest --secret=test --project=devops-339301
-     - USER=aputra env
+   - Authenticate
+   - Secret access
+   - Terraform
+   - CI/CD
 
+2. Example with pub sub
+   - python
    - [upload zip](https://cloud.google.com/functions/docs/deploying/filesystem)
+   - https://cloud.google.com/functions/docs/local-development#functions-clone-sample-repository-python
    - test locally both ways (https://cloud.google.com/functions/docs/testing/test-overview)
       > In general, we recommend using Functions Frameworks unless portability and/or containerization are specifically desired.
       - [Functions Framework](https://github.com/GoogleCloudPlatform/functions-framework)
       - [Building Using the Pack CLI](https://cloud.google.com/functions/docs/building/pack)
-   - CI/CD
-   - Terraform
 
-2. Cloud Endpoints or API Gateway
+3. Example with images recognition
+   - Uploaded to gs bucket
+
+4. API Gateway
    - custom domain
    - absed on envoy
    - API key
    - quotas
 
-3. Example with pub sub
-   - python
 
-4. Example with images recognition
-   - Uploaded to gs bucket
+
+
+
 
 
 
