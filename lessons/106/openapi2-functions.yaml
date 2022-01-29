@@ -1,4 +1,4 @@
-# openapi2-functions.yaml
+---
 swagger: '2.0'
 info:
   title: test-name-spec
@@ -14,7 +14,7 @@ paths:
       summary: Greet a user
       operationId: hello
       x-google-backend:
-        address: https://us-central1-devopsbyexample-v1.cloudfunctions.net/hello-get
+        address: https://us-central1-devopsbyexample-v2.cloudfunctions.net/backend-function
       responses:
         '200':
           description: A successful response
